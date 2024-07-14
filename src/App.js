@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CustomerTable from './components/CustomerTable';
 import TransactionGraph from './components/TransactionGraph';
 
-const API_URL = 'http://localhost:3001/api/data';
+const API_URL = 'https://f4da9d37-77bc-48a3-bcca-d33e4e85f1d1.mock.pstmn.io/customerTransaction';
 
 const App = () => {
   const [customers, setCustomers] = useState([]);
